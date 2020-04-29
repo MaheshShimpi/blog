@@ -35,7 +35,7 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile.png" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Mahesh Shimpi. <br />I am passinate Salesforce Developer. <br />I love to learn the new technologies.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Mahesh Shimpi. <br />I am passionate Salesforce Developer. <br />I love to learn the new technologies.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            <li class="list-inline-item"><a href="https://twitter.com/MaheshShimpi1"><i class="fab fa-twitter fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/mahesh-shimpi-a3a94440/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -45,22 +45,35 @@
 			        </ul><!--//social-list-->
 			        <hr> 
 				</div><!--//profile-section-->
-				
+				<?php 
+					$defaults = array(
+						'menu'            => '',
+						'container'       => 'ul',
+						'container_class' => 'navbar-nav flex-column text-left',
+						'before'          => '',
+						'after'           => '',
+						'link_before'     => '',
+						'link_after'      => '',
+						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'theme_location'  => 'primary',
+					);
+					wp_nav_menu($defaults);
+				 ?>
 				<ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
-					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog</a>
 					</li>
 					<li class="nav-item">
 					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
 					</li>
 				</ul>
 				
-				<div class="my-2 my-md-3">
+				<!-- <div class="my-2 my-md-3">
 				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
-				</div>
+				</div> -->
 			</div>
 		</nav>
 	</header>
