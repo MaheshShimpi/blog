@@ -48,7 +48,7 @@
 				<?php 
 					$defaults = array(
 						'menu'            => 'primary',
-						'container'       => false,
+						'container'       => 'ul',
 						'container_class' => false,
 						'menu_class'      => '',
 						'menu_id'         => '',	
