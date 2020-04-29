@@ -68,7 +68,7 @@
 					);
 					wp_nav_menu($defaults);
 				 ?>
-				<ul class="navbar-nav flex-column text-left">
+				<!-- <ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
 					</li>
@@ -78,7 +78,7 @@
 					<li class="nav-item">
 					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
 					</li>
-				</ul>
+				</ul> -->
 				
 				<!-- <div class="my-2 my-md-3">
 				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
