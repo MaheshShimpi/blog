@@ -48,8 +48,7 @@
 				<?php 
 					$defaults = array(
 						'menu'            => '',
-						'container'       => 'false',
-						'container_class' => '',
+						'container'       => false,
 						'menu_class'      => 'navbar-nav flex-column text-left',
 						'menu_id'         => '',	
 						'echo'            => true,
