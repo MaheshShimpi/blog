@@ -47,7 +47,7 @@
 				</div><!--//profile-section-->
 
 				<?php 
-				echo 'hi printed';
+				// echo 'hi printed';
 					$defaults = array(
 						'menu'            => 'primary',
 						'container'       => '',
