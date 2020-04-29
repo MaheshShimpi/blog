@@ -51,10 +51,10 @@
 					$defaults = array(
 						'menu'            => 'primary',
 						'container'       => '',
-						'container_class' => false,
+						'container_class' => '',
 						'menu_class'      => '',
 						'menu_id'         => '',	
-						'echo'            => 0,
+						'echo'            => true,
 						'fallback_cb'     => 'wp_page_menu',
 						'before'          => '',
 						'after'           => '',
