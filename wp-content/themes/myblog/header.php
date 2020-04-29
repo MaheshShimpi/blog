@@ -35,7 +35,7 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile.png" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Mahesh Shimpi. I a passinate Salesforce Developer. Love to learn the new technologies.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Mahesh Shimpi. <br />I am passinate Salesforce Developer. <br />I love to learn the new technologies.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 			            <li class="list-inline-item"><a href="https://twitter.com/MaheshShimpi1"><i class="fab fa-twitter fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/mahesh-shimpi-a3a94440/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
