@@ -66,7 +66,8 @@
 						'walker'          => '',
 						'theme_location'  => 'primary',
 					);
-					echo str_replace( '<li class="', '<li class="nav-item ',wp_nav_menu($defaults);
+					
+					wp_nav_menu($defaults);
 				 ?>
 				<!-- <ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
