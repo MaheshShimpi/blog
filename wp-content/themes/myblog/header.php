@@ -67,6 +67,7 @@
 						'theme_location'  => 'primary',
 					);
 					wp_nav_menu($defaults);
+					
 				 ?>
 				<!-- <ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
