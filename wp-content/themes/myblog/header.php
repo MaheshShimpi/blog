@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Bootstrap 4 Blog Template For Developers</title>
+    <title><?php wp_title(''); ?></title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -13,10 +13,10 @@
     <link rel="shortcut icon" href="favicon.ico"> 
     
     <!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
+	<script defer src="<?php echo get_template_directory_uri(); ?>/assets/fontawesome/js/all.min.js"></script>
     
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    <link id="theme-style" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/theme-1.css">
 
 </head> 
 
@@ -33,7 +33,7 @@
 
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_template_directory_uri(); ?>assets/images/profile.png" alt="image" >			
 					
 					<div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
