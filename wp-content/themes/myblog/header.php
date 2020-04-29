@@ -23,7 +23,7 @@
 <body>
     
     <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Anthony's Blog</a></h1>
+	    <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Mahesh's Blog</a></h1>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -35,13 +35,13 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile.png" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Mahesh Shimpi. I a passinate Salesforce Developer. Love to learn the new technologies.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://twitter.com/MaheshShimpi1"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/mahesh-shimpi-a3a94440/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/MaheshShimpi"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube fa-fw"></i></a></li>
+			            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
 			        </ul><!--//social-list-->
 			        <hr> 
 				</div><!--//profile-section-->
