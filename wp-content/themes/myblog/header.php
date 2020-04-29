@@ -49,15 +49,28 @@
 					$defaults = array(
 						'menu'            => '',
 						'container'       => 'ul',
-						'container_class' => 'navbar-nav flex-column text-left',
+						'container_class' => '',
+						'menu_class'      => 'navbar-nav flex-column text-left',
+						'menu_id'         => '',	
+						'echo'            => true,
+						'fallback_cb'     => 'wp_page_menu',
 						'before'          => '',
 						'after'           => '',
 						'link_before'     => '',
 						'link_after'      => '',
 						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-						'theme_location'  => 'primary',
+						'item_spacing'    => 'preserve',
+						'depth'           => 0,
+						'walker'          => '',
+						'theme_location'  => '',
 					);
-					wp_nav_menu($defaults);
+					wp_nav_menu(
+						array(
+							'menu' => 'primary',
+							'link_before' => '<span class="screen-reader-text">',
+							'link_after' => '</span>',
+						)
+					);
 				 ?>
 				<ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
