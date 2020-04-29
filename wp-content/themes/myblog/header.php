@@ -61,7 +61,7 @@
 						'item_spacing'    => 'preserve',
 						'depth'           => 0,
 						'walker'          => '',
-						'theme_location'  => '',
+						'theme_location'  => 'primary',
 					);
 					wp_nav_menu(
 						array(
