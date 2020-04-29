@@ -47,10 +47,10 @@
 				</div><!--//profile-section-->
 				<?php 
 					$defaults = array(
-						'menu'            => 'primay',
+						'menu'            => 'primary',
 						'container'       => false,
 						'container_class' => false,
-						'menu_class'      => 'navbar-nav flex-column text-left',
+						'menu_class'      => '',
 						'menu_id'         => '',	
 						'echo'            => true,
 						'fallback_cb'     => 'wp_page_menu',
@@ -58,7 +58,7 @@
 						'after'           => '',
 						'link_before'     => '',
 						'link_after'      => '',
-						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'items_wrap'      => '<ul id="%1$s" class="navbar-nav flex-column text-left">%3$s</ul>',
 						'item_spacing'    => 'preserve',
 						'depth'           => 0,
 						'walker'          => '',
