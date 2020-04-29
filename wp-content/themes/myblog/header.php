@@ -48,7 +48,7 @@
 				<?php 
 					$defaults = array(
 						'menu'            => '',
-						'container'       => 'ul',
+						'container'       => 'false',
 						'container_class' => '',
 						'menu_class'      => 'navbar-nav flex-column text-left',
 						'menu_id'         => '',	
