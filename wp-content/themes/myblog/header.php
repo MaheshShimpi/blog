@@ -62,7 +62,7 @@
 						'link_after'      => '',
 						'items_wrap'      => '<ul class="navbar-nav flex-column text-left">%3$s</ul>',
 						'item_spacing'    => 'preserve',
-						'depth'           => 3,
+						'depth'           => 1,
 						'walker'          => '',
 						'theme_location'  => 'primary',
 					);
