@@ -47,8 +47,9 @@
 				</div><!--//profile-section-->
 				<?php 
 					$defaults = array(
-						'menu'            => '',
+						'menu'            => 'primay',
 						'container'       => false,
+						'container_class' => false,
 						'menu_class'      => 'navbar-nav flex-column text-left',
 						'menu_id'         => '',	
 						'echo'            => true,
