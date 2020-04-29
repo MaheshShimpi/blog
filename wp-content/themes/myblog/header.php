@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title><?php wp_title(''); ?></title>
+    <title><?php wp_title(); ?></title>
     
     <!-- Meta -->
     <meta charset="utf-8">
