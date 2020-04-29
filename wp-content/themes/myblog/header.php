@@ -45,20 +45,22 @@
 			        </ul><!--//social-list-->
 			        <hr> 
 				</div><!--//profile-section-->
+
 				<?php 
+				echo 'hi printed';
 					$defaults = array(
 						'menu'            => 'primary',
-						'container'       => 'ul',
+						'container'       => '',
 						'container_class' => false,
 						'menu_class'      => '',
 						'menu_id'         => '',	
-						'echo'            => true,
+						'echo'            => 0,
 						'fallback_cb'     => 'wp_page_menu',
 						'before'          => '',
 						'after'           => '',
 						'link_before'     => '',
 						'link_after'      => '',
-						'items_wrap'      => '<ul id="%1$s" class="navbar-nav flex-column text-left">%3$s</ul>',
+						'items_wrap'      => '<ul class="navbar-nav flex-column text-left">%3$s</ul>',
 						'item_spacing'    => 'preserve',
 						'depth'           => 0,
 						'walker'          => '',
